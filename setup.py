@@ -10,7 +10,7 @@ setup(
     description="The Universal Android Backup Decryptor — detect, decrypt, and extract ANY Android backup format",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/victor/universal-backup-decryptor",
+    url="https://github.com/Victormarshall911/universal_backup_decryptor",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
