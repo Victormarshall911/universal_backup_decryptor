@@ -17,6 +17,7 @@ setup(
         "pycryptodome>=3.19.0",
         "mnemonic>=0.20",
         "filetype>=1.2.0",
+        "protobuf>=4.25.0",
     ],
     entry_points={
         "console_scripts": [
