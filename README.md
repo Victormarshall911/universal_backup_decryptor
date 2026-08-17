@@ -47,10 +47,19 @@ Millions of people have Android backups they can't open. The existing solutions 
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/universal-backup-decryptor.git
+git clone https://github.com/Victormarshall911/universal_backup_decryptor.git
 cd universal-backup-decryptor
 pip install -e .
 ```
+
+### Push to PyPI
+Make it installable with one command:
+
+```bash
+python -m build
+twine upload dist/*
+```
+Then users can do `pip install universal-backup-decryptor` instead of cloning.
 
 ### Usage
 
