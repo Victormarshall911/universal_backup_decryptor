@@ -69,6 +69,21 @@ def print_header(title: str):
     print(f"  {colored(line, Colors.DIM)}")
 
 
+def print_error(message: str):
+    """Print an error message with red icon."""
+    print(f"  {colored('✗', Colors.RED)} {colored(message, Colors.RED)}")
+
+
+def print_success(message: str):
+    """Print a success message with green icon."""
+    print(f"  {colored('✓', Colors.GREEN)} {colored(message, Colors.GREEN)}")
+
+
+def print_warning(message: str):
+    """Print a warning message with yellow icon."""
+    print(f"  {colored('⚠', Colors.YELLOW)} {message}")
+
+
 def print_banner():
     """Print the application banner."""
     banner = r"""
